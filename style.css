@@ -1,0 +1,91 @@
+.text-blackberry {
+    color: #3d2514;
+}
+.bg-orangedelight {
+    background-color: #ffc657;
+}
+h1 {
+    font-size: 70px;
+}
+h4 {
+    font-size: 50px;
+}
+.home h6 span {
+    border: 1px dashed #3d2514;
+}
+.section-padding {
+    padding-top: 50px;
+}
+.menu-first {
+    background-image: url("img/menu1.png");
+    background-repeat: no-repeat;
+    background-position: bottom 0 right 25%;
+    background-size: cover;
+    min-height: 500px;
+    width: 95%;
+}
+.menu-second {
+    background-image: url("img/menu2.png");
+    background-repeat: no-repeat;
+    background-position: bottom 0 right 25%;
+    background-size: cover;
+    min-height: 240px;
+    width: 95%;
+}
+.menu-third {
+    background-image: url("img/menu3.png");
+    background-repeat: no-repeat;
+    background-position: bottom 0 right 25%;
+    background-size: cover;
+    min-height: 240px;
+    width: 95%;
+}
+.shadow {
+    box-shadow: 20px 20px 40px rgba(255, 255, 255, 0.9);
+}
+.contact-us .banner-first {
+    background-image: url("img/banner2.png");
+    background-repeat: no-repeat;
+    background-position: top 0 left 20%;
+    background-size: cover;
+    min-height: 400px;
+    width: 100%;
+}
+.contact-us .banner-second {
+    background-image: url("img/banner3.png");
+    background-repeat: no-repeat;
+    background-position: top 0 left 0%;
+    background-size: cover;
+    min-height: 300px;
+}
+.form-section {
+    width: 60%;
+}
+.contact-us form input, .contact-us form button  {
+    width: 45%;
+}
+
+@media screen and (max-width:992px) {
+    h1 {
+        font-size: 60px;
+    }
+    h4 {
+        font-size: 40px;
+    }
+    h6 span {
+        font-size: 12px;
+    }
+    nav img {
+        width: 170px;
+    }
+    .contact-us .banner-first {
+        background-position: top 0 left 0%;
+        background-size: 100% 500px;
+    }
+    .contact-us form input, .contact-us form button  {
+        width: 80%;
+    }
+    .form-section {
+        width: 70%;
+    }
+}
